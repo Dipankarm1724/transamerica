@@ -1,0 +1,14 @@
+@media only screen and (min-width: 200px) and (max-width: 575px) {
+  .featuresContent ul li {
+    font-size: 20.8px;
+  }
+  .rider-title {
+    font-size: 20.8px;
+  }
+  .contentList p {
+    font-size: 17.6px;
+  }
+  .accordion-header button {
+    font-size: 20.8px;
+  }
+}

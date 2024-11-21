@@ -1,0 +1,105 @@
+* {
+  font-family: "Nunito Sans", sans-serif;
+}
+.definition {
+  font-weight: 700;
+}
+.definition span {
+  color: #42b995;
+}
+
+.definition-para {
+  color: #506690;
+  font-size: 1.5rem;
+}
+.fa-solid {
+  color: #42b995;
+}
+
+.card-info .fa-solid {
+  font-size: 2rem;
+  /* border: #42b995 1px solid;
+  padding: 15px;
+  border-radius: 50%; */
+}
+.card-info-title {
+  font-size: 20px;
+}
+
+.card-info {
+  transition: transform 0.3s ease-in-out;
+}
+.card-info:hover {
+  transform: translateY(-10px);
+}
+
+.featuresContent ul {
+  list-style-type: none;
+}
+
+.featuresContent ul li {
+  font-size: 22.4px;
+}
+.featuresContent p {
+  color: #506690;
+}
+
+.pros ul {
+  list-style-type: none;
+}
+.cons ul {
+  list-style-type: none;
+}
+
+.pros ul li {
+  font-size: 22px;
+}
+.cons ul li {
+  font-size: 22px;
+}
+
+.comparision-list ul {
+  list-style-type: none;
+}
+.comparision-list ul li {
+  font-size: 20px;
+}
+
+.comparision-list div {
+  background-color: #1c2948 !important;
+  color: white;
+  transition: 0.3s ease-in-out;
+}
+
+.comparision-list div:hover {
+  background-color: #1c2948c5 !important;
+  transform: scale(1.1, 1.1);
+}
+.accordion-header button {
+  font-size: 22px;
+}
+
+.accordion-body {
+  font-size: 17.2px;
+}
+
+.icon-circle {
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  border: 2px solid #42b995;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.icon-circle i {
+  font-size: 40px;
+}
+
+.rider-title {
+  font-size: 22.4px;
+}
+.riderfeaturesContent ul {
+  list-style-type: none;
+}
