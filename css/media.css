@@ -1,4 +1,17 @@
 @media only screen and (min-width: 200px) and (max-width: 575px) {
+  .scroll-btn {
+    margin-top: -4rem !important;
+  }
+  .transamerica-title h2 {
+    font-size: 38.4px !important;
+  }
+  .company-logo {
+    width: 145px;
+  }
+  .company-logo {
+    position: relative;
+    top: -5px;
+  }
   .featuresContent ul li {
     font-size: 20.8px;
   }

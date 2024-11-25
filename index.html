@@ -50,13 +50,9 @@
   </head>
 
   <body>
-    <!-- hero-section -->
     <section
-      class="py-10 py-md-14 bg-primary overlay overlay-black overlay-80 bg-cover aos-init aos-animate"
-      id="welcome"
-      style="
-        background-image: url('https://getsure.org/wp-content/uploads/securepdfs/2022/07/Transamerica-Final-Expense-Brochure-pdf-image-e1680908784504.jpg');
-      "
+      class="py-10 py-md-14 bg-primary overlay overlay-black overlay-80 bg-cover lazyloaded aos-init aos-animate"
+      id="heroSection"
       data-aos="fade-up"
     >
       <!-- Shape -->
@@ -89,109 +85,111 @@
           </defs>
         </svg>
       </div>
-      <!-- Text-on-hero -->
+
+      <!-- Content -->
       <div class="container pt-6">
         <div class="row justify-content-center">
           <div class="col-12 mob-pd col-md-10 col-lg-8 text-center">
+            <!-- Heading -->
             <h1 class="display-2 fw-bold text-white">Transamerica</h1>
+
+            <!-- Text -->
             <p class="lead text-white">Final Expense Insurance</p>
           </div>
         </div>
+        <!-- / .row -->
       </div>
+      <!-- / .container -->
     </section>
-
-    <!-- scroll-down-section -->
-    <section>
-      <div class="col-12 text-center">
-        <!-- Button -->
-        <a
-          href="#about"
-          class="btn btn-white btn-rounded-circle shadow mt-n12 mt-md-n14"
-          data-scroll=""
+    <div class="position-relative aos-init aos-animate" data-aos="fade-up">
+      <div class="shape shape-bottom shape-fluid-x text-white">
+        <svg
+          viewBox="0 0 2880 48"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
         >
-          <i class="fa-solid fa-arrow-down"></i>
-        </a>
+          <path
+            d="M0 48h2880V0h-720C1442.5 52 720 0 720 0H0v48z"
+            fill="currentColor"
+          ></path>
+        </svg>
       </div>
-      <!-- / .row -->
-      <div class="row">
-        <div class="col-12 text-center"></div>
-      </div>
-    </section>
-    <!-- Transamerica -->
-
-    <section class="container-fluid py-0 mt-5" id="about">
-      <div class="container">
-        <div class="row justify-content-between align-items-center">
-          <div class="col-sm-12 text-center mb-5">
-            <img
-              src="https://getsure.org/wp-content/uploads/2023/09/Transamerica-Financial-Life-Insurance-Company-logo.png"
-              alt=""
-            />
-            <h2 class="fs-1">
-              Who is
-              <span class="" style="color: #42b995">Transamerica?</span>
-            </h2>
+    </div>
+    <section class="pt-4 pt-md-10" id="about">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-12 text-center">
+            <!-- Button -->
+            <a
+              href="#about"
+              class="scroll-btn btn btn-white btn-rounded-circle shadow mt-md-n14"
+              data-scroll=""
+            >
+              <i class="fa-solid fa-arrow-down"></i>
+            </a>
           </div>
-          <div class="col-sm-12">
-            <div class="featuresContent">
-              <ul class="m-0 p-0">
-                <li class="mb-3">
-                  <div class="d-flex gap-3">
-                    <div class="icon">
-                      <i class="fa-solid fa-circle-check"></i>
+        </div>
+        <!-- / .row -->
+        <div class="row">
+          <div class="col-12 text-center"></div>
+        </div>
+
+        <div class="container-fluid py-0 mt-5" id="about">
+          <div class="row">
+            <div
+              class="transamerica-title d-flex justify-content-center align-items-end mb-5"
+            >
+              <h2 class="fs-1">Who is</h2>
+              <img
+                src="https://getsure.org/wp-content/uploads/2023/09/Transamerica-Financial-Life-Insurance-Company-logo.png"
+                alt=""
+                class="company-logo"
+              />
+              <h2 class="question-mark fs-1">?</h2>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container-fluid py-0 mt-5" id="about">
+        <div class="container">
+          <div class="row justify-content-between align-items-center">
+            <div class="col-sm-12">
+              <div class="featuresContent">
+                <ul class="m-0 p-0">
+                  <li class="mb-3">
+                    <div class="d-flex gap-3">
+                      <div class="icon">
+                        <i class="text-primary fa-solid fa-plus"></i>
+                      </div>
+                      <div class="contentList text-primary">
+                        Founded in [ ],Transamerica has been selling burial
+                        insurance for [ ] year
+                      </div>
                     </div>
-                    <div class="contentList">
-                      Permanent whole life death benefit available at low issue
-                      amounts.
+                  </li>
+                  <li class="mb-3">
+                    <div class="d-flex gap-3">
+                      <div class="icon">
+                        <i class="text-primary fa-solid fa-plus"></i>
+                      </div>
+                      <div class="contentList text-primary">
+                        "A" (Excellent) financial strength rating from A.M. Best
+                      </div>
                     </div>
-                  </div>
-                </li>
-                <li class="mb-3">
-                  <div class="d-flex gap-3">
-                    <div class="icon">
-                      <i class="fa-solid fa-circle-check"></i>
+                  </li>
+                  <li class="mb-3">
+                    <div class="d-flex gap-3">
+                      <div class="icon">
+                        <i class="text-primary fa-solid fa-plus"></i>
+                      </div>
+                      <div class="contentList text-primary">
+                        Offers burial insurance to Americans ages 0-85 in all
+                        states except New York
+                      </div>
                     </div>
-                    <div class="contentList">
-                      Income tax-free death benefit to your heirs.
-                    </div>
-                  </div>
-                </li>
-                <li class="mb-3">
-                  <div class="d-flex gap-3">
-                    <div class="icon">
-                      <i class="fa-solid fa-circle-check"></i>
-                    </div>
-                    <div class="contentList">
-                      Policy builds a tax-deferred cash value over time that can
-                      be borrowed against. Outstanding loans and previous
-                      withdrawals will reduce the death benefit by the balance
-                      due.
-                    </div>
-                  </div>
-                </li>
-                <li class="mb-3">
-                  <div class="d-flex gap-3">
-                    <div class="icon">
-                      <i class="fa-solid fa-circle-check"></i>
-                    </div>
-                    <div class="contentList">
-                      Offers option for reduced paid-up policy if your situation
-                      changes.
-                    </div>
-                  </div>
-                </li>
-                <li class="mb-3">
-                  <div class="d-flex gap-3">
-                    <div class="icon">
-                      <i class="fa-solid fa-circle-check"></i>
-                    </div>
-                    <div class="contentList">
-                      Riders add additional protection with convenience and ease
-                      of one policy.
-                    </div>
-                  </div>
-                </li>
-              </ul>
+                  </li>
+                </ul>
+              </div>
             </div>
           </div>
         </div>
@@ -203,47 +201,46 @@
       <div class="container">
         <div class="row">
           <div class="col-sm-12 text-center my-5">
-            <h2 class="fs-1">Coverage Details</h2>
+            <h2 class="fs-1">
+              <span class="text-primary">Coverage</span> Details
+            </h2>
           </div>
         </div>
         <div class="container-fluid">
           <div class="container">
             <div
-              class="row row-cols-lg-3 row-cols-sm-2 row-cols-1s text-center gy-4"
+              class="row row-cols-lg-3 row-cols-sm-1 row-cols-1 text-center gy-4"
             >
               <div class="col">
                 <div class="card-info text-center p-4">
                   <div class="icon-circle">
-                    <i class="fa-solid fa-person-circle-check"></i>
+                    <i class="fa-solid fa-person-circle-check text-primary"></i>
                   </div>
-                  <p class="mt-2 card-info-title">Age Range</p>
-                  <p>
-                    Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                    Officia, deleniti.
+                  <p class="mt-2 card-info-title fw-bold text-primary">
+                    Ages <br />
+                    0 - 85
                   </p>
                 </div>
               </div>
               <div class="col">
                 <div class="card-info text-center p-4">
                   <div class="icon-circle">
-                    <i class="fa-solid fa-sack-dollar"></i>
+                    <i class="fa-solid fa-sack-dollar text-primary"></i>
                   </div>
-                  <p class="mt-2 card-info-title">Coverage Range</p>
-                  <p>
-                    Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                    Officia, deleniti.
+                  <p class="mt-2 card-info-title fw-bold text-primary">
+                    Coverage from <br />
+                    $1,000 to $50,000
                   </p>
                 </div>
               </div>
               <div class="col">
                 <div class="card-info text-center p-4">
                   <div class="icon-circle">
-                    <i class="fa-solid fa-map-location-dot"></i>
+                    <i class="fa-solid fa-map-location-dot text-primary"></i>
                   </div>
-                  <p class="mt-2 card-info-title">Geographic Availability</p>
-                  <p>
-                    Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                    Officia, deleniti.
+                  <p class="mt-2 card-info-title fw-bold text-primary">
+                    Available in all states <br />
+                    except New York
                   </p>
                 </div>
               </div>
@@ -253,29 +250,50 @@
       </div>
     </section>
 
-    <!-- key Benifits -->
-
-    <section class="container-fluid py-0 my-5">
+    <!-- Product features -->
+    <section class="pt-5 pt-md-10">
       <div class="container">
         <div class="row">
-          <div class="col-sm-12 text-center mt-9 mb-9">
-            <h2 class="fw-bold fs-1 mb-5">
-              Product <span class="text-success">features</span>
-            </h2>
-            <p class="lead text-gray-700">
-              Transamerica’s expedited claims process can pay up to $25,000 of
-              the total death benefit to cover funeral-related or any other
-              expenses that may arise.
-            </p>
-          </div>
-        </div>
-        <div class="row">
           <div class="row justify-content-center">
-            <div class="col-12 col-md-10 col-lg-8 mb-1 text-center"></div>
+            <div class="col-12 col-md-10 col-lg-8 mb-9 text-center">
+              <h2 class="fw-bold fs-1">
+                Product <span class="text-success">features</span>
+              </h2>
+            </div>
           </div>
         </div>
-
         <div class="row">
+          <div class="col-12 col-lg-6 serv">
+            <div
+              class="row align-items-center mb-9 mb-col aos-init aos-animate"
+              data-aos="fade-up"
+            >
+              <div class="col-3 mb-1 text-center">
+                <img
+                  width="70"
+                  src="https://getsure.org/wp-content/uploads/2024/04/cash.svg"
+                  alt="..."
+                  class="img-fluid ls-is-cached lazyloaded"
+                  data-src="https://getsure.org/wp-content/uploads/2024/04/cash.svg"
+                  decoding="async"
+                /><noscript
+                  ><img
+                    width="70"
+                    src="https://getsure.org/wp-content/uploads/2024/04/cash.svg"
+                    alt="..."
+                    class="img-fluid"
+                    data-eio="l"
+                /></noscript>
+              </div>
+              <div class="col-9">
+                <!-- Heading -->
+                <h4 class="fw-bold mb-2">A cash payout</h4>
+                <!-- Text -->
+                <p>Burial insurance = money to your family when you die</p>
+              </div>
+            </div>
+            <!-- / .row -->
+          </div>
           <div class="col-12 col-lg-6 serv">
             <!-- Item -->
             <div
@@ -300,54 +318,13 @@
                     data-eio="l"
                 /></noscript>
               </div>
-              <div class="col-9 feature-list">
+              <div class="col-9">
                 <!-- Heading -->
-                <h4 class="fw-bold mb-2">Issue Ages</h4>
-                <!-- Text -->
-                <div>
-                  <p>
-                    Immediate Solution (life paid-up at age 121) 0–85 , 10-Pay
-                    Solution (premium payable for 10 years) 0–85, Easy Solution
-                    (graded death benefit) 18–80; In New York, 50–75
-                  </p>
-                </div>
-              </div>
-            </div>
-            <!-- / .row -->
-          </div>
-          <div class="col-12 col-lg-6 serv">
-            <!-- Item -->
-            <div
-              class="row align-items-center mb-9 mb-col aos-init aos-animate"
-              data-aos="fade-up"
-            >
-              <div class="col-3 mb-1 text-center">
-                <!-- Image -->
-                <img
-                  width="70"
-                  src="https://getsure.org/wp-content/uploads/2024/04/cash.svg"
-                  alt="..."
-                  class="img-fluid ls-is-cached lazyloaded"
-                  data-src="https://getsure.org/wp-content/uploads/2024/04/cash.svg"
-                  decoding="async"
-                /><noscript
-                  ><img
-                    width="70"
-                    src="https://getsure.org/wp-content/uploads/2024/04/cash.svg"
-                    alt="..."
-                    class="img-fluid"
-                    data-eio="l"
-                /></noscript>
-              </div>
-              <div class="col-9 feature-list">
-                <!-- Heading -->
-                <h4 class="fw-bold mb-2">
-                  Maximum death benefit Immediate Solution and 10-Pay Solution
-                </h4>
+                <h4 class="fw-bold mb-2">Terminal benefit</h4>
                 <!-- Text -->
                 <p>
-                  0–55 : $50,000 | 56–65 : $40,000 | 66–75 : $30,000 | 76–85 :
-                  $25,000
+                  Withdraw 100% of your benefit if diagnosed with a terminal
+                  illness
                 </p>
               </div>
             </div>
@@ -379,9 +356,12 @@
               </div>
               <div class="col-9">
                 <!-- Heading -->
-                <h4 class="fw-bold mb-2">Minimum death benefit</h4>
+                <h4 class="fw-bold mb-2">Lifetime</h4>
                 <!-- Text -->
-                <p>$1,000</p>
+                <p>
+                  It lasts for your whole life (as long as you make your monthly
+                  payments)
+                </p>
               </div>
             </div>
             <!-- / .row -->
@@ -412,121 +392,121 @@
               </div>
               <div class="col-9">
                 <!-- Heading -->
-                <h4 class="fw-bold mb-2">
-                  Maximum death benefit, Easy Solution
-                </h4>
+                <h4 class="fw-bold mb-2">Effortless process</h4>
                 <!-- Text -->
-                <p>$25,000</p>
+                <p>
+                  It's easy to get: you can apply 100% online in less than 10
+                  minutes
+                </p>
               </div>
             </div>
             <!-- / .row -->
           </div>
         </div>
-        <!-- / .row -->
       </div>
-      <!-- / .container -->
     </section>
     <!-- Policy Riders -->
     <section class="container-fluid py-10 mt-5 bg-light">
       <div class="container">
-        <div class="row justify-content-between align-items-center">
+        <div class="row justify-content-start">
           <div class="col-sm-12 text-center mb-5">
             <h2 class="fs-1">
               Policy
-              <span class="" style="color: #42b995">Riders</span>
+              <span class="text-primary">Riders</span>
             </h2>
           </div>
-          <div class="col-sm-12">
-            <div class="riderfeaturesContent">
-              <ul class="m-0 p-0">
-                <li class="mb-3">
-                  <div class="rider-section">
-                    <div class="rider-heading">
-                      <h1 class="rider-title fw-bold mb-2">
-                        Rider No. 1 :<span class="text-capitalize">
-                          Accelerated Death Benefit Riders.</span
-                        >
-                      </h1>
-                    </div>
-                    <div class="contentList ps-8">
-                      <p>
-                        This rider pays the face amount, less an interest
-                        discount, less any loans, less administrative charge,
-                        less any premiums that would be due in the next year
-                        upon diagnosis of a qualifying event or confinement in a
-                        qualified nursing home facility. This rider is not
-                        available if you need any assistance in performing daily
-                        living activities at the time of application.
-                      </p>
-                    </div>
-                  </div>
-                  <div class="rider-section py-4">
-                    <div class="rider-heading">
-                      <h1 class="rider-title fw-bold mb-2">
-                        Rider No. 2 :<span class="text-capitalize">
-                          Terminal Illness Accelerated Death Benefit Rider (TIR)
-                          For California Only.</span
-                        >
-                      </h1>
-                    </div>
-                    <div class="contentList ps-8">
-                      <p>
-                        Insured can accelerate up to 100% of the face amount,
-                        less an interest discount, less any loans, less any
-                        administrative charge, less any premiums that would be
-                        due in the next year, if death is expected within 12
-                        months receipt of a physician’s statement.
-                      </p>
-                    </div>
-                  </div>
-                  <div class="rider-section py-4">
-                    <div class="rider-heading">
-                      <h1 class="rider-title fw-bold mb-2">
-                        Rider No. 3 :<span class="text-capitalize">
-                          Accidental Death Benefit Rider (ADR)
-                        </span>
-                      </h1>
-                    </div>
-                    <div class="contentList ps-8">
-                      <p>
-                        Available only on the Immediate Solution for issue ages
-                        18–70. This rider provides for payment of an amount in
-                        addition to the face amount of the policy in the event
-                        of accidental death resulting directly and independently
-                        of all other causes from an accident, as defined in the
-                        rider, subject to the definitions and exclusions set out
-                        in the rider. Death must occur within 90 days from the
-                        accidental bodily injury, while the policy is in force.
-                        The additional accidental death benefit amount is equal
-                        to the base face amount.
-                      </p>
-                    </div>
-                  </div>
-                  <div class="rider-section py-4">
-                    <div class="rider-heading">
-                      <h1 class="rider-title fw-bold mb-2">
-                        Rider No. 4 :<span class="text-capitalize">
-                          Children’s And Grandchildren’s Benefit Rider
-                          (CGR)</span
-                        >
-                      </h1>
-                    </div>
-                    <div class="contentList ps-8">
-                      <p>
-                        This rider provides level term insurance, with
-                        conversion feature, for the children/grandchildren named
-                        in the rider. Available only on the Immediate Solution
-                        for issue ages of parent/grandparent 18–75 and
-                        child/grandchild issue ages 15 days old to 18 years. The
-                        minimum death benefit is $1,000, the maximum death
-                        benefit is equal to the base face amount or $5,000,
-                        whichever is less. No more than nine covered
-                        children/grandchildren may be covered under this rider.
-                      </p>
-                    </div>
-                  </div>
-                </li>
-              </ul>
+          <!-- content -->
+          <div class="container-fluid col-sm-12">
+            <div
+              class="d-flex flex-row justify-content-start align-items-start gap-3 row-12"
+            >
+              <div class="col-auto">
+                <span
+                  class="badge badge-lg h-100 badge-rounded-circle border border-primary text-bg-primary-subtle"
+                >
+                  <span>1</span>
+                </span>
+              </div>
+              <div class="rider-section">
+                <div class="rider-heading">
+                  <h1 class="rider-title fw-bold m-0">
+                    Accelerated Death Benefit Riders (Included)
+                  </h1>
+                </div>
+                <div class="contentList">
+                  <p>
+                    This rider pays the face amount, less an interest discount,
+                    less any loans, less administrative charge, less any
+                    premiums that would be due in the next year upon diagnosis
+                    of a qualifying event or confinement in a qualified nursing
+                    home facility. This rider is not available if you need any
+                    assistance in performing daily living activities at the time
+                    of application.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div
+              class="d-flex flex-row justify-content-start align-items-start gap-3 row-12"
+            >
+              <div class="col-auto">
+                <span
+                  class="badge badge-lg h-100 badge-rounded-circle border border-primary text-bg-primary-subtle"
+                >
+                  <span>2</span>
+                </span>
+              </div>
+              <div class="rider-section">
+                <div class="rider-heading">
+                  <h1 class="rider-title fw-bold m-0">
+                    Accidental Death Benefit Rider (Optional)
+                  </h1>
+                </div>
+                <div class="contentList">
+                  <p>
+                    Available only on the Immediate Solution for issue ages
+                    18–70. This rider provides for payment of an amount in
+                    addition to the face amount of the policy in the event of
+                    accidental death resulting directly and independently of all
+                    other causes from an accident, as defined in the rider,
+                    subject to the definitions and exclusions set out in the
+                    rider. Death must occur within 90 days from the accidental
+                    bodily injury, while the policy is in force. The additional
+                    accidental death benefit amount is equal to the base face
+                    amount.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div
+              class="d-flex flex-row justify-content-start align-items-start gap-3 row-12"
+            >
+              <div class="col-auto">
+                <span
+                  class="badge badge-lg h-100 badge-rounded-circle border border-primary text-bg-primary-subtle"
+                >
+                  <span>3</span>
+                </span>
+              </div>
+              <div class="rider-section">
+                <div class="rider-heading">
+                  <h1 class="rider-title fw-bold m-0">
+                    Children’s And Grandchildren’s Benefit Rider (Optional)
+                  </h1>
+                </div>
+                <div class="contentList">
+                  <p>
+                    This rider provides level term insurance, with conversion
+                    feature, for the children/grandchildren named in the rider.
+                    Available only on the Immediate Solution for issue ages of
+                    parent/grandparent 18–75 and child/grandchild issue ages 15
+                    days old to 18 years. The minimum death benefit is $1,000,
+                    the maximum death benefit is equal to the base face amount
+                    or $5,000, whichever is less. No more than nine covered
+                    children/grandchildren may be covered under this rider.
+                  </p>
+                </div>
+              </div>
             </div>
           </div>
         </div>

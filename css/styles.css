@@ -1,6 +1,27 @@
 * {
-  font-family: "Nunito Sans", sans-serif;
+  font-family: "HKGroteskPro", sans-serif;
 }
+#heroSection {
+  background-image: url("https://getsure.org/wp-content/uploads/securepdfs/2022/07/Transamerica-Final-Expense-Brochure-pdf-image-e1680908784504.jpg");
+}
+
+.company-logo {
+  position: relative;
+  top: 17px;
+}
+.question-mark {
+  position: relative;
+  right: 12px;
+}
+.btn.btn-white.btn-rounded-circle.shadow.mt-md-n14 {
+  transition: all 0.3s ease;
+}
+.btn.btn-white.btn-rounded-circle.shadow.mt-md-n14:hover {
+  background-color: #0d6efd;
+  color: white;
+  transform: scale(1.1);
+}
+
 .definition {
   font-weight: 700;
 }
@@ -12,15 +33,9 @@
   color: #506690;
   font-size: 1.5rem;
 }
-.fa-solid {
-  color: #42b995;
-}
 
 .card-info .fa-solid {
   font-size: 2rem;
-  /* border: #42b995 1px solid;
-  padding: 15px;
-  border-radius: 50%; */
 }
 .card-info-title {
   font-size: 20px;
@@ -42,20 +57,6 @@
 }
 .featuresContent p {
   color: #506690;
-}
-
-.pros ul {
-  list-style-type: none;
-}
-.cons ul {
-  list-style-type: none;
-}
-
-.pros ul li {
-  font-size: 22px;
-}
-.cons ul li {
-  font-size: 22px;
 }
 
 .comparision-list ul {
@@ -87,7 +88,7 @@
   display: inline-block;
   width: 50px;
   height: 50px;
-  border: 2px solid #42b995;
+  border: 2px solid #0d6efd;
   border-radius: 50%;
   display: flex;
   justify-content: center;
